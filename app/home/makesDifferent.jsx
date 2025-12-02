@@ -7,6 +7,7 @@ const nunito = Nunito({
   weight: ["300", "400", "600", "700", "800"],
   variable: "--font-nunito",
 });
+
 const features = [
   {
     icon: <Scissors className="w-10 h-10 text-[#a76765]" />,
