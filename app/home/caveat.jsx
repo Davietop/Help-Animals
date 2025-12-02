@@ -44,7 +44,7 @@ export default function CaveatSection() {
   {/* RIGHT SIDE IMAGE */}
   <div className="relative w-full h-64 sm:h-80 md:h-full">
     <Image
-      src="/images/hero_banner.jpg"
+      src="/images/change_theirs2.jpg"
       alt="Cute kitten"
       fill
       className="object-cover"

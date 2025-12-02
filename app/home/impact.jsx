@@ -1,8 +1,8 @@
 import { Nunito } from "next/font/google";
 import Image from "next/image";
-import Impact1 from "@/public/images/impact1.jpg";
-import Impact2 from "@/public/images/impact2.jpg";
-import Impact3 from "@/public/images/impact3.jpg";
+import Impact1 from "@/public/images/animal_stat.jpg";
+import Impact2 from "@/public/images/industry_exp.jpg";
+import Impact3 from "@/public/images/mission.jpg";
 
 const nunito = Nunito({
   subsets: ["latin"],

@@ -8,22 +8,22 @@ const nunito = Nunito({
 
 const approachInfo = [
     {
-        src: '/images/mission_hero.jpg',
+        src: '/images/quality_control.jpg',
         text: 'Quality Control',
         subText: 'Every surgery meets our rigorous standards'
     },
     {
-        src: '/images/mission_hero.jpg',
+        src: '/images/save_cost.jpg',
         text: 'Save Cost',
         subText: 'We eliminate administrative overhead and middleman costse'
     },
     {
-        src: '/images/mission_hero.jpg',
+        src: '/images/trust_and_onsistency.jpg',
         text: 'Comprehensive Care',
         subText: 'Address complications and provide life-saving surgeries'
     },
     {
-        src: '/images/mission_hero.jpg',
+        src: '/images/comprehensive_care.jpg',
         text: 'Trust And Consistency',
         subText: 'Same dedicated team every visit'
     },
@@ -45,7 +45,7 @@ export default function Approach() {
                 return   <div key={index} className="flex flex-col border shadow-xl gap-y-8 rounded-3xl ">
           <div className="relative w-full h-[200px] overflow-hidden  rounded-tl-xl rounded-tr-xl">
             <Image
-              src="/images/mission_hero.jpg"
+              src={src}
               alt="Vet caring for a dog"
               fill
               className="object-cover"

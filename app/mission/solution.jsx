@@ -80,7 +80,7 @@ export default function Solutions() {
           {/* IMAGE */}
         <div className="relative w-full h-96 rounded-3xl overflow-hidden shadow-xl">
   <Image
-    src="/images/mission_hero.jpg"
+    src="/images/mission_img.jpg"
     alt="Vet caring for a dog"
     fill
     className="object-cover"

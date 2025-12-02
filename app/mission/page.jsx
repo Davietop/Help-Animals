@@ -7,6 +7,7 @@ import Approach from "./approach";
 import Values from "./values";
 import Footer from "@/components/ui/footer";
 import VisionSection from "./vision";
+import HelpUs from "./helpUs";
 
 export default function Missions() {
   return (
@@ -19,6 +20,7 @@ export default function Missions() {
     <Approach/>
     <Values/>
     <VisionSection/>
+    <HelpUs/>
     <Footer/>
     </div>
   );
