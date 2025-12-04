@@ -42,7 +42,7 @@ export default function VisionSection() {
           <ul className="space-y-4 text-base md:text-lg text-[#2f3643]">
             {[
               "Subsidize spay & neuter surgeries for low-income families",
-              "Provide emergency veterinary care to pets in crisis",
+              "Provide affordable outpatient surgeries",
               "Expand outreach to underserved communities",
               "Educate the public about responsible pet ownership",
               "Partner with shelters to sterilize pets before adoption",

@@ -10,11 +10,13 @@ const nunito = Nunito({
   variable: "--font-nunito",
 });
 
+
+
 const features = [
   {
     icon: <BarChart3 className="w-10 h-10 text-[#a76765]" />,
     
-    text: "Each year, millions of healthy, adoptable animals enter shelters across America. Many never make it out. The root cause isn't a lack of love, but a lack of access to affordable spay-and-neuter services.",
+    text: "Each year, millions of healthy, adoptable animals enter shelters across America. Many never make it out. The cause isn’t a lack of love, but often times it is a lack of  being able to care for their pets medical needs, along with some of the basic needs; affordable, spay and neuter, affordable vaccines",
   },
   {
     icon: <TriangleAlert className="w-10 h-10 text-[#a76765]" />,

@@ -23,12 +23,7 @@ export default function Values() {
       title: "Excellence",
       text: "Our experienced surgical team maintains the highest medical standards while serving as many animals as possible.",
       icon: CheckBadgeIcon,
-    },
-    {
-      title: "Direct Impact",
-      text: "We remove financial barriers so every pet owner can be a responsible pet owner.",
-      icon: BoltIcon,
-    },
+    }, 
     {
       title: "Community",
       text: "Ending pet homelessness requires collaboration. So we work alongside shelters, but with an expertise that makes the difference.",
