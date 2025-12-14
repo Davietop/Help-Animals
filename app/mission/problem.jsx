@@ -35,7 +35,7 @@ export default function Problem() {
   return (
     <div className={`${nunito.className}`}>
       <div className="bg-white    px-5 lg:px-10">
-        <h1 className=" text-left  font-bold text-xl sm:text-2xl  leading-snug border-l-4 text-black border-[#a76765] font-bold pl-4">
+        <h1 className=" text-left  font-bold text-xl sm:text-2xl  leading-snug border-l-4 text-black border-[#8a5854] font-bold pl-4">
           The Problem We are Solving
         </h1>
       </div>
@@ -45,10 +45,10 @@ export default function Problem() {
           {features.map((feat, i) => (
             <Card
               key={i}
-              className="rounded-2xl shadow-md hover:shadow-xl transition-shadow duration-300 border border-[#a76765]/20"
+              className="rounded-2xl shadow-md hover:shadow-xl transition-shadow duration-300 border border-[#8a5854]/20"
             >
               <CardContent className="flex flex-col items-center text-center  space-y-4">
-                <div className="p-4 rounded-full bg-[#a76765]/10">
+                <div className="p-4 rounded-full bg-[#8a5854]/10">
                   {feat.icon}
                 </div>
                 <h3 className="text-base md:text-lg text-gray-600 leading-relaxed ">{feat?.title}</h3>

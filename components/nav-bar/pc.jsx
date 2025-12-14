@@ -21,7 +21,7 @@ export const paths = {
   process: "/process",
   team: "/team",
   testimonial: "/testimonial",
-  contact: "/contact",
+ 
   aboutUs: '/aboutUs',
   reach: '/reachOut'
 };
@@ -43,10 +43,7 @@ export const links = [
     name: "Testimonial",
     link: paths.testimonial,
   },
-  {
-    name: "Contact",
-    link: paths.contact,
-  },
+
   {
     name: "About Us",
     link: paths.aboutUs,
@@ -64,7 +61,7 @@ const PcNav = () => {
 
   return (
     <nav
-      className={`text-white  ${nunito.className}  h-[80px] hidden xl:flex justify-around  relative z-10  items-center  ${
+      className={`text-white  ${nunito.className}  h-[80px] hidden lg:flex justify-around  relative z-10  items-center  ${
         pathname === paths.team ? "lg:relative" : ""
       }  `}
     >

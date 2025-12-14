@@ -21,7 +21,7 @@ export default function DifferentWays() {
       Countless Ways to Make a Difference
     </h1>
 
-    <p className="text-sm sm:text-base md:text-xl leading-relaxed">
+    <p className="text-base md:text-xl leading-relaxed">
       Your donation directly funds affordable spay and neuter surgeries for
       families who could not otherwise afford them. Every dollar you give
       prevents animal homelessness, reduces shelter overcrowding, and keeps

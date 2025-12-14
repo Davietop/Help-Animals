@@ -19,14 +19,14 @@ export default function ChanceSupport() {
         Every Pet Deserves a Chance. Every Family Deserves Support.
       </h1>
 
-      <p className="text-sm sm:text-base md:text-lg leading-relaxed">
+      <p className="text-base md:text-lg leading-relaxed">
         Every day in San Diego, countless animals face uncertain futures because
         their families can not afford essential veterinary care. At Let us Help
         Animals Foundation, we believe cost should never be a barrier to
         responsible pet ownership.
       </p>
 
-      <p className="text-sm sm:text-base md:text-lg leading-relaxed">
+      <p className="text-base md:text-lg leading-relaxed">
         Unlike organizations that outsource surgeries to third-party providers,
         our foundation operates on a different model: we are veterinarians and
         animal care professionals who personally perform every procedure. With
@@ -35,7 +35,7 @@ export default function ChanceSupport() {
         care can be both affordable and accessible.
       </p>
 
-      <p className="text-sm sm:text-base md:text-lg leading-relaxed">
+      <p className="text-base md:text-lg leading-relaxed">
         Through our established clinic, San Diego Animal Spay & Neuter Center,
         we have spent nine years perfecting our approach—combining efficiency
         with compassion, volume with quality, and expertise with affordability.

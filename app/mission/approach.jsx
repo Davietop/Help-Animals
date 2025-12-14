@@ -33,7 +33,7 @@ export default function Approach() {
   return (
     <div className={`${nunito.className} py-6`}>
       <div className="bg-white    px-5 lg:px-10">
-        <h1 className=" text-left  font-bold text-xl sm:text-2xl  leading-snug border-l-4 text-black border-[#a76765] font-bold pl-4">
+        <h1 className=" text-left  font-bold text-xl sm:text-2xl  leading-snug border-l-4 text-black border-[#8a5854] font-bold pl-4">
           Our Hands-on Approach
         </h1>
       </div>

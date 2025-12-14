@@ -20,7 +20,7 @@ export const paths = {
   process: "/process",
   team: "/team",
   testimonial: "/testimonial",
-  contact: "/contact",
+
   aboutUs: '/aboutUs',
   reach: '/reachOut'
 };
@@ -50,10 +50,7 @@ export const links = [
     name: "Process",
     link: paths.process,
   },
-  {
-    name: "Contact Us",
-    link: paths.contact,
-  },
+ 
 ];
 
 export const MobileDevV2 = () => {
@@ -65,7 +62,7 @@ export const MobileDevV2 = () => {
 
 
   return (
-    <div className={`${nunito.className}  xl:hidden`}>
+    <div className={`${nunito.className}  lg:hidden`}>
       {/* Top Navbar */}
       <header className="fixed w-full  top-0 left-0 bg-white z-50">
         <div className="flex items-center h-[70px] justify-between px-6 py-4">

@@ -27,7 +27,7 @@ export default function CaveatSection() {
     </h1>
 
     <p
-      className={`${nunito.className} text-[#4b4b4b] mt-4 max-w-lg text-sm sm:text-base md:text-lg leading-relaxed`}
+      className={`${nunito.className} text-[#4b4b4b] mt-4 max-w-lg text-base sm:text-base md:text-lg leading-relaxed`}
     >
       For nearly a decade, our expert surgical team has been fighting animal
       overpopulation in San Diego with affordable, high-quality spay and
@@ -42,7 +42,7 @@ export default function CaveatSection() {
   </div>
 
   {/* RIGHT SIDE IMAGE */}
-  <div className="relative w-full h-64 sm:h-80 md:h-full">
+  <div className="relative w-full h-72 sm:h-80 md:h-full">
     <Image
       src="/images/change_theirs2.jpg"
       alt="Cute kitten"

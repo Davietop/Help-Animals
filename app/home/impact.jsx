@@ -44,7 +44,7 @@ export default function Impact() {
             </div>
 
             <p className="mt-3 font-bold text-lg">{phrase}</p>
-            <p className="text-gray-700 text-sm sm:text-base">{text}</p>
+            <p className="text-gray-700 text-base">{text}</p>
           </div>
         ))}
       </div>

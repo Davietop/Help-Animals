@@ -15,7 +15,7 @@ export default function Solutions() {
   return (
     <section className={`${nunito.className} py-4`}>
       <div className="bg-white    px-5 lg:px-10">
-        <h1 className=" text-left  font-bold text-xl sm:text-2xl  leading-snug border-l-4 text-black border-[#a76765] font-bold pl-4">
+        <h1 className=" text-left  font-bold text-xl sm:text-2xl  leading-snug border-l-4 text-black border-[#8a5854] font-bold pl-4">
           Our Solution
         </h1>
         <p className="pl-4 mt-2 text-base text-gray-700">
@@ -24,7 +24,7 @@ export default function Solutions() {
       </div>
 
       <section className="">
-        <div className="max-w-7xl mx-auto px-6 grid lg:grid-cols-2 gap-x-16 gap-y-6 items-center">
+        <div className="w-full md:w-11/12 mx-auto  px-6 md:px-0 grid lg:grid-cols-2 gap-x-16 gap-y-6 items-center">
           {/* TEXT */}
           <div>
             <p className="mt-6 text-gray-700 text-base md:text-lg leading-relaxed">

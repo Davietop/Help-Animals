@@ -7,7 +7,7 @@ const nunito = Nunito({
 });
 export default function Footer(){
  return (
-    <footer className={`${nunito.className} bg-[#a76765] text-white py-12 px-6`}>
+    <footer className={`${nunito.className} bg-[#8a5854] text-white py-12 px-6`}>
       <div className="max-w-6xl mx-auto grid grid-cols-2 md:grid-cols-3 gap-8 sm:gap-10">
 
         {/* LEFT COLUMN */}

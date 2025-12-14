@@ -35,22 +35,22 @@ export default function Values() {
     <section className={`${nunito.className} w-full py-4`}>
       {/* Header */}
       <div className="bg-white px-5 lg:px-10">
-        <h1 className="text-left font-bold text-xl sm:text-2xl leading-snug border-l-4 border-[#a76765] text-black pl-4">
+        <h1 className="text-left font-bold text-xl sm:text-2xl leading-snug border-l-4 border-[#8a5854] text-black pl-4">
           Core Values
         </h1>
       </div>
 
       {/* Grid */}
-      <div className="max-w-6xl px-6 mt-6 mx-auto">
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-10 auto-rows-fr">
+      <div className="w-full md:w-11/12 px-6 md:px-0  mt-6 mx-auto">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10 auto-rows-fr">
           {values.map(({ title, text, icon: Icon }, index) => (
             <div key={index} className="relative group h-full">
               {/* Card */}
-              <div className="relative bg-white h-full flex flex-col rounded-2xl p-6 shadow-[0_6px_0_#a76765] border border-[#a76765] transition-all duration-200 group-hover:shadow-[0_10px_0_#a76765]">
+              <div className="relative bg-white h-full flex flex-col rounded-2xl p-6 shadow-[0_6px_0_#8a5854] border border-[#a76765] transition-all duration-200 group-hover:shadow-[0_10px_0_#a76765]">
                 
                 {/* ICON */}
                 <div className="mb-4">
-                  <Icon className="h-10 w-10 text-[#a76765]" />
+                  <Icon className="h-10 w-10 text-[#8a5854]" />
                 </div>
 
                 <h3 className="text-lg md:text-xl font-semibold text-[#4b3c2a] font-serif mb-3">

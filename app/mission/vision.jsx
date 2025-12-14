@@ -11,7 +11,7 @@ export default function VisionSection() {
   return (
     <section className={`${nunito.className} w-full py-10`}>
          <div className="bg-white    px-5 lg:px-10">
-        <h1 className=" text-left  font-bold text-xl sm:text-2xl  leading-snug border-l-4 text-black border-[#a76765] font-bold pl-4">
+        <h1 className=" text-left  font-bold text-xl sm:text-2xl  leading-snug border-l-4 text-black border-[#8a5854] font-bold pl-4">
            Our Vision for the Future
         </h1>
         <p className="text-base md:text-lg   text-gray-700 pl-4 leading-relaxed mt-2"> We are expanding our capacity to serve more families, provide more life-saving
@@ -48,7 +48,7 @@ export default function VisionSection() {
               "Partner with shelters to sterilize pets before adoption",
             ].map((item, i) => (
               <li key={i} className="flex gap-4">
-                <span className="text-[#a76765] text-3xl leading-none">•</span>
+                <span className="text-[#8a5854] text-3xl leading-none">•</span>
                 <span>{item}</span>
               </li>
             ))}

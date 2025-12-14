@@ -58,7 +58,7 @@ export default function WhatMakesUsDifferent() {
                 >
                   {feat.title}
                 </h3>
-                <p className="text-sm sm:text-base text-gray-600 leading-relaxed">
+                <p className="text-base text-gray-600 leading-relaxed">
                   {feat.text}
                 </p>
               </CardContent>
