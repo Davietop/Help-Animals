@@ -143,7 +143,7 @@ export default function Recommendation() {
 
       {/* ADDITIONAL PAYMENTS */}
 
-      <section className="w-full flex justify-center px-4 py-10">
+      <section className="w-full flex justify-center  py-10">
         <div className="w-full max-w-6xl bg-[#8a5854] text-white rounded-3xl px-6 md:px-12 py-12">
           {/* Heading */}
           <h3 className="text-sm font-semibold tracking-wide  mb-10 uppercase">

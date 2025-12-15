@@ -1,12 +1,11 @@
 "use client";
 
-
 import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
 import { usePathname } from "next/navigation";
 import { Nunito } from "next/font/google";
-
+import { HeartHandshake } from "lucide-react";
 
 const nunito = Nunito({
   subsets: ["latin"],
@@ -14,15 +13,15 @@ const nunito = Nunito({
   variable: "--font-nunito",
 });
 export const paths = {
- home: "/",
+  home: "/",
 
   mission: "/mission",
   process: "/process",
   team: "/team",
   testimonial: "/testimonial",
-
-  aboutUs: '/aboutUs',
-  reach: '/reachOut'
+  donate: "/donate",
+  aboutUs: "/aboutUs",
+  reach: "/reachOut",
 };
 
 export const links = [
@@ -50,7 +49,10 @@ export const links = [
     name: "Process",
     link: paths.process,
   },
- 
+  {
+    name: "Donate",
+    link: paths.donate,
+  },
 ];
 
 export const MobileDevV2 = () => {
@@ -59,7 +61,6 @@ export const MobileDevV2 = () => {
 
   const toggleSidebar = () => setOpen(!open);
   const closeSidebar = () => setOpen(false);
-
 
   return (
     <div className={`${nunito.className}  lg:hidden`}>
@@ -71,21 +72,18 @@ export const MobileDevV2 = () => {
 
             <Link href="/">
               <Image
-                 src={`/images/logo_background.png`}
-            alt="Afrindependent.svg"
-            width={120}
-            height={52}
-            priority
+                src={`/images/logo_background.png`}
+                alt="Afrindependent.svg"
+                width={120}
+                height={52}
+                priority
                 className="relative z-30"
-              
               />
             </Link>
           </div>
 
-         <div className="flex items-center gap-x-2">
-       
-         <button 
-         onClick={toggleSidebar}>
+          <div className="flex items-center gap-x-2">
+            <button onClick={toggleSidebar}>
               {!open ? (
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -116,7 +114,7 @@ export const MobileDevV2 = () => {
                 </svg>
               )}
             </button>
-         </div>
+          </div>
         </div>
       </header>
 
@@ -124,10 +122,7 @@ export const MobileDevV2 = () => {
       <div className="relative z-40">
         {/* Backdrop */}
         {open && (
-          <div
-            className="fixed inset-0 bg-black/30"
-            onClick={closeSidebar}
-          />
+          <div className="fixed inset-0 bg-black/30" onClick={closeSidebar} />
         )}
 
         {/* Sidebar */}
@@ -137,35 +132,28 @@ export const MobileDevV2 = () => {
           }`}
           onClick={(e) => e.stopPropagation()}
         >
-          {links.map(
-            ({ name, link }) => {
-              const isActive = pathname === link;
-              return (
-                <Link
-                  key={name}
-                  href={link}
-                  className={`flex relative items-center border-b  `}
-                >
-                   {
-                    isActive &&  <div className="h-full w-[10px] z-10 bg-deepForest absolute l-0"></div>
-                   }
+          {links.map(({ name, link }) => {
+            const isActive = pathname === link;
+            return (
+              <Link
+                key={name}
+                href={link}
+                className={`flex relative items-center border-b  `}
+              >
+                {isActive && (
+                  <div className="h-full w-[10px] z-10 bg-deepForest absolute l-0"></div>
+                )}
                 <div className="flex relative items-center px-4 py-7 border-b pl-6 ">
-                      {/* <div className="w-6 h-6 bg-gray-300 mr-3 rounded-sm flex-shrink-0" /> */}
+                  {/* <div className="w-6 h-6 bg-gray-300 mr-3 rounded-sm flex-shrink-0" /> */}
                   <span className="text-lg font-semibold">{name}</span>
+                
                 </div>
-                </Link>
-              );
-            }
-          )}
+              </Link>
+            );
+          })}
+           
         </div>
       </div>
     </div>
   );
 };
-
-
-
-
-          
-             
-         
