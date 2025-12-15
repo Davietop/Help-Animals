@@ -193,7 +193,7 @@ export default function Recommendation() {
           </div>
 
           {/* Disclaimer */}
-          <p className="text-sm leading-relaxed  max-w-5xl">
+          {/* <p className="text-sm leading-relaxed  max-w-5xl">
             The Let us help Animal Foundation is a registered 501(c)(3) tax-exempt public
             charity (EIN: 99-1585525). Our organization was formerly known as
             the <em>Angels for Angels Foundation</em>, incorporated in the State
@@ -205,7 +205,7 @@ export default function Recommendation() {
             list either <em>Angels for Angels Foundation</em> (our previous
             name) or <em>Caravita Foundation</em> (our current name) when
             sending a donation.
-          </p>
+          </p> */}
         </div>
       </section>
     </div>
