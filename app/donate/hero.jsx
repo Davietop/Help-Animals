@@ -9,7 +9,7 @@ export default function Hero() {
     <div
   className={`${nunito.className} mt-10 md:mt-0 relative bg-[url('/images/donate_img.jpg')] bg-cover bg-center 
     flex items-center justify-center flex-col w-full
-    min-h-[80vh] sm:min-h-[70vh] md:min-h-[80vh]
+    min-h-[80vh] sm:min-h-[70vh] md:min-h-[70vh]
      text-center text-white gap-y-4 z-10
     before:absolute before:inset-0 before:bg-black/70 before:z-0
   `}

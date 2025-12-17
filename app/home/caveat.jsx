@@ -1,6 +1,7 @@
 
 import Image from "next/image";
 import { Nunito } from "next/font/google";
+import Link from "next/link";
 
 
 
@@ -34,11 +35,11 @@ export default function CaveatSection() {
       neuter services — and we are just getting started.
     </p>
 
-    <button
+    <Link href={'/donate'}
       className={`${nunito.className} mt-6 bg-[#a76765] cursor-pointer text-white px-8 sm:px-10 py-3 rounded-xl transition-all hover:opacity-90`}
     >
       Join the Quest
-    </button>
+    </Link>
   </div>
 
   {/* RIGHT SIDE IMAGE */}

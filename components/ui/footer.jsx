@@ -1,5 +1,6 @@
 import { FaInstagram, FaYoutube, FaWhatsapp, FaFacebookF } from "react-icons/fa";
 import { Nunito } from "next/font/google";
+import Link from "next/link";
 const nunito = Nunito({
   subsets: ["latin"],
   weight: ["300", "400", "600", "700", "800"],
@@ -13,12 +14,12 @@ export default function Footer(){
         {/* LEFT COLUMN */}
         <div>
           <h3 className="text-xl font-bold mb-4">Navigation</h3>
-          <ul className="space-y-2 text-base sm:text-lg">
-            <li className="transition cursor-pointer hover:text-white/80">Donate</li>
-            <li className="transition cursor-pointer hover:text-white/80">Mission</li>
-            <li className="transition cursor-pointer hover:text-white/80">Our Process</li>
-            <li className="transition cursor-pointer hover:text-white/80">Team</li>
-            <li className="transition cursor-pointer hover:text-white/80">Testimonials</li>
+          <ul className="space-y-2 flex flex-col text-base sm:text-lg">
+            <Link href='/donate' className="transition cursor-pointer hover:text-white/80">Donate</Link>
+            <Link href='/mission' className="transition cursor-pointer hover:text-white/80">Mission</Link>
+            <Link href='/process' className="transition cursor-pointer hover:text-white/80">Our Process</Link>
+            <Link href='/about#team' className="transition cursor-pointer hover:text-white/80">Team</Link>
+          
           </ul>
         </div>
 
@@ -26,8 +27,8 @@ export default function Footer(){
         <div className=" md:mt-0">
           <h3 className="text-xl font-bold mb-4">About Us</h3>
           <ul className="space-y-2 text-base sm:text-lg">
-            <li className="transition cursor-pointer hover:text-white/80">Who We Are</li>
-            <li className="transition cursor-pointer hover:text-white/80">Reach Out</li>
+            <Link href='/about' className="transition cursor-pointer hover:text-white/80">About Us</Link>
+            <Link href='/' className="transition cursor-pointer hover:text-white/80">Reach Out</Link>
           </ul>
         </div>
 

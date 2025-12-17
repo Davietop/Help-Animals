@@ -16,7 +16,7 @@ export default function Story() {
       <div className="flex flex-col items-center">
         <div
           className="text-base flex flex-col text-center 
-    w-full max-w-6xl my-10 mx-auto 
+    w-full md:w-10/12 my-10 mx-auto 
     items-center gap-y-5 px-4"
         >
           <p className="text-base md:text-lg leading-relaxed">
@@ -46,7 +46,7 @@ export default function Story() {
         </div>
 
         <button className="border border-white cursor-pointer px-10 rounded-xl text-white bg-[#a76765] font-bold py-3">
-          Learn More
+          Learn More 
         </button>
       </div>
     </section>

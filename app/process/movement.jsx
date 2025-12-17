@@ -1,4 +1,5 @@
 import { Nunito } from "next/font/google";
+import Link from "next/link";
 const nunito = Nunito({
   subsets: ["latin"],
   weight: ["300", "400", "600", "700", "800"],
@@ -64,17 +65,17 @@ export default function MovementSection() {
 
         {/* Buttons */}
         <div className="flex  flex-col md:flex-row items-center justify-center gap-5 mt-8">
-          <button className="bg-white text-[#8a5854] font-semibold cursor-pointer px-10 w-full sm:w-fit py-3 rounded-full shadow hover:opacity-90 transition">
+          <Link href={'/donate'} className="bg-white text-[#8a5854] font-semibold cursor-pointer px-10 w-full sm:w-fit py-3 rounded-full shadow hover:opacity-90 transition">
             Donate Now
-          </button>
+          </Link>
 
-          <button className="border border-white font-semibold px-10 py-3 w-full sm:w-fit rounded-full cursor-pointer hover:bg-white hover:text-[#8a5854] transition">
+          <Link href={'/about'} className="border border-white font-semibold px-10 py-3 w-full sm:w-fit rounded-full cursor-pointer hover:bg-white hover:text-[#8a5854] transition">
             Learn About Our Services
-          </button>
+          </Link>
 
-          <button className="border border-white font-semibold px-10 py-3 w-full sm:w-fit rounded-full cursor-pointer hover:bg-white hover:text-[#8a5854] transition">
+          <Link href={'/process'} className="border border-white font-semibold px-10 py-3 w-full sm:w-fit rounded-full cursor-pointer hover:bg-white hover:text-[#8a5854] transition">
             Get Involved
-          </button>
+          </Link>
         </div>
       </div>
     </section>

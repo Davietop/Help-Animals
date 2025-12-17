@@ -17,10 +17,10 @@ export const paths = {
 
   mission: "/mission",
   process: "/process",
-  team: "/team",
-  testimonial: "/testimonial",
+team: "/about#team",
+
   donate: "/donate",
-  aboutUs: "/aboutUs",
+  aboutUs: "/about",
   reach: "/reachOut",
 };
 
@@ -37,10 +37,7 @@ export const links = [
     name: "Reach Out",
     link: paths.reach,
   },
-  {
-    name: "Testimonial",
-    link: paths.testimonial,
-  },
+
   {
     name: "Team",
     link: paths.team,

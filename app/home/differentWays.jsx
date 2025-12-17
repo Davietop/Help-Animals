@@ -1,4 +1,5 @@
 import { Nunito } from "next/font/google";
+import Link from "next/link";
 const nunito = Nunito({
   subsets: ["latin"],
   weight: ["300", "400", "600", "700", "800"],
@@ -29,13 +30,13 @@ export default function DifferentWays() {
     </p>
 
     <div className="flex flex-col sm:flex-row gap-4 sm:gap-6 mt-4">
-      <button className="border border-white cursor-pointer px-10 rounded-xl text-[#a76765] bg-white font-bold py-3">
+      <Link href={'/donate'} className="border border-white cursor-pointer px-10 rounded-xl text-[#a76765] bg-white font-bold py-3">
         Donate Now
-      </button>
+      </Link>
 
-      <button className="border border-white cursor-pointer px-10 rounded-xl text-[#a76765] bg-white font-bold py-3">
+      <Link href={'/about'} className="border border-white cursor-pointer px-10 rounded-xl text-[#a76765] bg-white font-bold py-3">
         Learn About Spay-ueter
-      </button>
+      </Link>
     </div>
   </div>
 </section>

@@ -19,10 +19,11 @@ export const paths = {
 
   mission: "/mission",
   process: "/process",
-  team: "/team",
-  testimonial: "/testimonial",
+  team: "/about#team",
+  
+  
  
-  aboutUs: '/aboutUs',
+  aboutUs: '/about',
   reach: '/reachOut'
 };
 
@@ -39,10 +40,8 @@ export const links = [
     name: "Team",
     link: paths.team,
   },
-  {
-    name: "Testimonial",
-    link: paths.testimonial,
-  },
+  
+  
 
   {
     name: "About Us",
@@ -76,7 +75,7 @@ const PcNav = () => {
           />
         </Link>
 
-        <ul className="flex gap-x-2 items-center text-base font-semibold">
+        <ul className="flex gap-x-8 items-center text-base font-semibold">
           {links.map(({ name, link }, index) => {
             const active = pathname === link;
             return (

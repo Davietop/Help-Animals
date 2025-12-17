@@ -28,7 +28,7 @@ const CTAs = () => (
       </div>
        <div className="flex w-full md:w-fit items-center gap-x-4">
         <Link
-          href="/donate"
+          href="/process"
           className="flex w-full md:w-fit items-center justify-center  gap-3 border-2  border-[#8a5854] text-white bg-[#8a5854]  text-base hover:text-[#8a5854] hover:bg-white dark:hover:text-black font-semibold py-3 px-6 rounded-xl shadow-md transition duration-300"
         >
           <Info className="w-5 h-5" />
@@ -41,7 +41,7 @@ const CTAs = () => (
 export default function Hero() {
   return (
     <section className={`${nunito.className} relative`}>
-      <div className="w-full md:w-full lg:w-11/12 justify-center mx-auto px-4 md:px-10 lg:px-5  py-20   grid grid-cols-1 lg:grid-cols-2 items-center gap-8">
+      <div className="w-full md:w-full lg:w-11/12 justify-center mx-auto px-4 md:px-10 lg:px-5  py-20 lg:py-10  grid grid-cols-1 lg:grid-cols-2 items-center gap-8">
         <div className="order-2 lg:order-1  text-center lg:text-left">
           <h1 className="text-xl md:text-3xl xl:text-5xl font-bold leading-tight">
             Ending Pet Homelessness Starts With Compassion

@@ -1,4 +1,5 @@
 import { Nunito } from "next/font/google";
+import Link from "next/link";
 
 const nunito = Nunito({
   subsets: ["latin"],
@@ -26,9 +27,9 @@ export default function Hero() {
     Let us help Animals Foundation
   </p>
 
-  <button className="border border-white cursor-pointer px-8 sm:px-10 rounded-xl text-[#a76765] bg-white mt-6 font-bold py-3 sm:py-4 z-10">
+  <Link href={'/donate'} className="border border-white cursor-pointer px-8 sm:px-10 rounded-xl text-[#a76765] bg-white mt-6 font-bold py-3 sm:py-4 z-10">
     Support Our Mission
-  </button>
+  </Link>
 </div>
 
   );

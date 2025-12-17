@@ -1,4 +1,5 @@
 import { Nunito } from "next/font/google";
+import Link from "next/link";
 const nunito = Nunito({
   subsets: ["latin"],
   weight: ["300", "400", "600", "700", "800"],
@@ -41,7 +42,7 @@ export default function ChanceSupport() {
         with compassion, volume with quality, and expertise with affordability.
       </p>
 
-      <button
+      <Link href={'/process'}
         className="
       mt-6 bg-[#a76765] cursor-pointer 
       text-white px-10 sm:px-16 py-3 
@@ -50,7 +51,7 @@ export default function ChanceSupport() {
     "
       >
         Our Process
-      </button>
+      </Link>
     </div>
   );
 }

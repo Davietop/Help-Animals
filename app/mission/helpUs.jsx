@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { Nunito } from "next/font/google";
+import Link from "next/link";
 
 const nunito = Nunito({
   subsets: ["latin"],
@@ -26,11 +27,11 @@ export default function HelpUs() {
           forfamilies who could not otherwise afford them.
         </p>
 
-        <button
+        <Link href={'/donate'}
           className={`${nunito.className} mt-6 bg-[#8a5854] cursor-pointer text-white px-8 sm:px-10 py-3 rounded-xl transition-all hover:opacity-90`}
         >
          Donate
-        </button>
+        </Link>
       </div>
 
       {/* RIGHT SIDE IMAGE */}
