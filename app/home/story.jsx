@@ -1,4 +1,5 @@
 import { Nunito } from "next/font/google";
+import Link from "next/link";
 const nunito = Nunito({
   subsets: ["latin"],
   weight: ["300", "400", "600", "700", "800"],
@@ -45,9 +46,9 @@ export default function Story() {
           </p>
         </div>
 
-        <button className="border border-white cursor-pointer px-10 rounded-xl text-white bg-[#a76765] font-bold py-3">
+        <Link href={'/mission'} className="border border-white cursor-pointer px-10 rounded-xl text-white bg-[#a76765] font-bold py-3">
           Learn More 
-        </button>
+        </Link>
       </div>
     </section>
   );
